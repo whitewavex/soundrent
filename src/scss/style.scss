@@ -1,0 +1,23 @@
+/* BASE */
+@import 'base/reset';
+@import 'base/fonts';
+@import 'base/variables';
+
+/* WRAPPER */
+@import 'wrapper/wrapper';
+
+/* PAGE */
+@import 'page/page';
+
+/* HEADER */
+@import 'head-info/head-info';
+@import 'logo/logo';
+@import 'logo/logo__img';
+@import 'head-info/head-info__logo';
+@import 'head-info/head-info__title';
+@import 'head-info/head-info__lang';
+@import 'head-info/head-info__phone';
+@import 'lang/lang__item';
+@import 'phone/phone__numbers';
+@import 'phone/phone__img';
+@import 'phone/phone__number';

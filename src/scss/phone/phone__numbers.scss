@@ -1,0 +1,20 @@
+.phone__numbers {
+    float: right;
+    margin: 17px 38px 0 0;
+}
+
+/* Small Devices, Phones */
+@media only screen and (max-width : 575px) {
+    
+    .phone__numbers {
+        margin-top: 0;
+    }
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px) {
+    
+    .phone__numbers {
+        margin-right: 10px;
+    }
+}

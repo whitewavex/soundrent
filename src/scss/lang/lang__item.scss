@@ -1,0 +1,12 @@
+.lang__item {
+    float: left;
+    margin-left: 20px;
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px) {
+    
+    .lang__item {
+        margin-left: 10px;
+    }
+}

@@ -1,0 +1,23 @@
+.head-info__title {
+    float: left;
+    color: #c9c9c9;
+    font-size: 24px;
+    padding-top: 20px;
+}
+
+/* Large Devices, Desktops */
+@media only screen and (max-width : 991px) {
+    
+    .head-info__title {
+        font-size: 20px;
+        padding-top: 26px;
+    }
+}
+
+/* Medium Devices, Tablets */
+@media only screen and (max-width : 767px) {
+    
+    .head-info__title {
+        display: none;
+    }
+}
