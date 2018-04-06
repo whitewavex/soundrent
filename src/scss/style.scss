@@ -10,6 +10,8 @@
 @import 'page/page';
 
 /* HEADER */
+
+/* HEAD-INFO */
 @import 'head-info/head-info';
 @import 'logo/logo';
 @import 'logo/logo__img';
@@ -21,3 +23,11 @@
 @import 'phone/phone__numbers';
 @import 'phone/phone__img';
 @import 'phone/phone__number';
+
+/* NAVIGATION */
+@import 'navigation/navigation';
+@import 'navigation/navigation__wrapper';
+@import 'navigation/navigation__list';
+@import 'navigation/navigation__item';
+@import 'navigation/navigation__link';
+@import 'line/line';

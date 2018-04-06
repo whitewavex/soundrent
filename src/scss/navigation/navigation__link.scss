@@ -1,0 +1,13 @@
+.navigation__link {
+    display: block;
+    color: $color-text;
+    text-decoration: none;
+    padding: 10px 28px;
+    border-bottom: 3px solid transparent;
+    transition: .3s;
+    
+    &:hover {
+        border-bottom: 3px solid #f0342b;
+        transition: .3s;
+    }
+}
