@@ -3,8 +3,8 @@
     font-size: 14px;
     font-weight: 600;
     text-transform: uppercase;
-    float: left;
     border-right: 1px solid #000;
+    float: left;
     
     &:last-child {
         border-right: 0;
@@ -28,5 +28,29 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#3d3d3d', end
     &:last-child:before {
         width: 0;
         height: 0;
+    }
+}
+
+/* Extra Large Devices, Wide Screens */
+@media only screen and (max-width : 1199px) {
+    
+    .navigation__item {
+        font-size: 12px;
+    }
+}
+
+/* Large Devices, Desktops */
+@media only screen and (max-width : 991px) {
+    
+    .navigation__item {
+        font-size: 11px;
+    }
+}
+
+/* Medium Devices, Tablets */
+@media only screen and (max-width : 889px) {
+    
+    .navigation__item {
+        font-size: 10px;
     }
 }

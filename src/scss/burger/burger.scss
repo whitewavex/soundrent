@@ -1,0 +1,17 @@
+.burger {
+    background-color: #282828;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    left: 0;
+    top: 0;
+    display: none;
+}
+
+/* Medium Devices, Tablets */
+@media only screen and (max-width : 767px) {
+    
+    .burger {
+        display: block;
+    }
+}

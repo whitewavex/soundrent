@@ -3,17 +3,16 @@
     margin-right: 34px;
 }
 
-/* Small Devices, Phones */
-@media only screen and (max-width : 575px) {
+/* Large Devices, Desktops */
+@media only screen and (max-width : 991px) {
     
     .head-info__logo {
-        margin-right: 0;
-        max-width: 78px;
+        margin-right: 18px;
     }
 }
 
-/* Extra Small Devices, Phones */
-@media only screen and (max-width : 480px) {
+/* Medium Devices, Tablets */
+@media only screen and (max-width : 767px) {
     
     .head-info__logo {
         display: none;

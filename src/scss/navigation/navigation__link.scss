@@ -3,11 +3,49 @@
     color: $color-text;
     text-decoration: none;
     padding: 10px 28px;
+    text-align: justify;
     border-bottom: 3px solid transparent;
     transition: .3s;
+    
+    &::before {
+        content: "";
+        width: 100%;
+    }
     
     &:hover {
         border-bottom: 3px solid #f0342b;
         transition: .3s;
+    }
+}
+
+/* Max Large Devices */
+@media only screen and (max-width : 1293px) {
+    
+    .navigation__link {
+        padding: 10px 20px;
+    }
+}
+
+/* Extra Large Devices, Wide Screens */
+@media only screen and (max-width : 1199px) {
+    
+    .navigation__link {
+        padding: 10px 15px;
+    }
+}
+
+/* Large Devices, Desktops */
+@media only screen and (max-width : 991px) {
+    
+    .navigation__link {
+        padding: 10px 13px;
+    }
+}
+
+/* Medium Devices, Tablets */
+@media only screen and (max-width : 889px) {
+    
+    .navigation__link {
+        padding: 10px 9px;
     }
 }

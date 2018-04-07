@@ -1,0 +1,13 @@
+.burger__item {
+    transition-duration: 0.25s;
+    display: block;
+    padding: 12px 20px;
+    color: white;
+    letter-spacing: 0.02em;
+    text-align: right;
+    
+    &:hover {
+        cursor: pointer;
+        color: white;
+    }
+}

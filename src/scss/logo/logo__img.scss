@@ -1,3 +1,11 @@
+/* Medium Devices, Tablets */
+@media only screen and (max-width : 767px) {
+    
+    .logo__img {
+        width: 100%;
+    }
+}
+
 /* Small Devices, Phones */
 @media only screen and (max-width : 575px) {
     

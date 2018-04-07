@@ -1,0 +1,31 @@
+.open-nav__icon {
+    transition-duration: 0.2s;
+    position: absolute;
+    width: 30px;
+    height: 2px;
+    background-color: white;
+    top: 24px;
+    left: 10px;
+    
+    &::before {
+        transition-duration: 0.5s;
+        background-color: white;
+        position: absolute;
+        content: "";
+        width: 30px;
+        height: 2px;
+        left: 0px;
+        top: -7px;
+    }
+    
+    &::after {
+        transition-duration: 0.5s;
+        background-color: white;
+        position: absolute;
+        content: "";
+        width: 30px;
+        height: 2px;
+        left: 0px;
+        top: 7px;
+    }
+}

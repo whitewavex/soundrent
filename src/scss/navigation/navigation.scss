@@ -3,3 +3,11 @@
     background-image: url(images/nav_bg.jpg);
     background-repeat: repeat-x;
 }
+
+/* Medium Devices, Tablets */
+@media only screen and (max-width : 767px) {
+    
+    .navigation {
+        display: none;
+    }
+}
