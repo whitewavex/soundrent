@@ -9,10 +9,12 @@
 /* PAGE */
 @import 'page/page';
 @import 'page/page__wrap';
+@import 'page/page__header';
 
 /* HEADER */
 
 /* HEAD-INFO */
+@import 'header/header__head-info';
 @import 'head-info/head-info';
 @import 'logo/logo';
 @import 'logo/logo__img';
@@ -45,3 +47,7 @@
 @import 'open-nav/open-nav';
 @import 'open-nav/open-nav__icon';
 @import 'nav-open/nav-open';
+
+/* SLIDER */
+
+@import 'slider/slider';

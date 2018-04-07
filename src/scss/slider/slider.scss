@@ -1,0 +1,30 @@
+.slider {
+    border-bottom: 1px solid #1d1d1d;
+    
+    img {
+        width: 100%;
+    }
+}
+
+.slick-dots {
+    bottom: 40px;
+    
+    li button:before {
+        font-size: 11px;
+        opacity: 1;
+        color: #5d5e5d;
+    }
+    
+    li.slick-active button:before {
+        color: $color-text;
+        opacity: 1;
+    }
+}
+
+/* Medium Devices, Tablets */
+@media only screen and (max-width : 767px) {
+    
+    .slider {
+        margin-top: 63px;
+    }
+}
