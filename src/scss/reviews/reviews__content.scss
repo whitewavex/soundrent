@@ -1,0 +1,29 @@
+.reviews__content {
+    font-size: 15px;
+    color: #6a6a6a;
+    line-height: 1.4;
+}
+
+/* Medium Devices, Tablets */
+@media only screen and (max-width : 767px) {
+    
+    .reviews__content {
+        font-size: 14px;
+    }
+}
+
+/* Small Devices, Phones */
+@media only screen and (max-width : 575px) {
+    
+    .reviews__content {
+        font-size: 13px;
+    }
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px) {
+    
+    .reviews__content {
+        font-size: 12px;
+    }
+}

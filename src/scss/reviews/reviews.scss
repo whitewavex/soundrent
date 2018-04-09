@@ -1,0 +1,15 @@
+.reviews {
+    background-color: $color-bg;
+    padding-top: 50px;
+    padding-bottom: 80px;
+}
+
+/* Small Devices, Phones */
+@media only screen and (max-width : 575px) {
+    
+    .reviews {
+        padding-top: 30px;
+        padding-bottom: 40px;
+    }
+}
+    

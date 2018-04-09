@@ -1,5 +1,14 @@
 .title {
-    font-size: 35px;
+    font-size: 34px;
     font-weight: 600;
     color: $color-text;
+}
+
+/* Small Devices, Phones */
+@media only screen and (max-width : 575px) {
+    
+    .title {
+        font-size: 28px;
+        line-height: 1.2;
+    }
 }

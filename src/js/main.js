@@ -28,13 +28,30 @@ $(document).ready(function() {
         dots: true,
         arrows: false,
         speed: 1000,
-        centerPadding: '40px',
         slidesToShow: 2,
         responsive: [
             {
                 breakpoint: 767,
                 settings: {
                     slidesToShow: 1
+                }
+            }
+        ]
+    });
+    
+//    REVIEWS SLIDER
+    
+    $('.slider-reviews').slick({
+        dots: true,
+        arrows: false,
+        speeed: 3000,
+        slidesToShow: 2,
+        vertical: true,
+        responsive: [
+            {
+                breakpoint: 1200,
+                settings: {
+                    adaptiveHeight: true
                 }
             }
         ]

@@ -13,6 +13,11 @@
 
 /* TITLE */
 @import 'title/title';
+@import 'title/title_dark';
+
+/* PLAY */
+
+@import 'play/play';
 
 /* HEADER */
 
@@ -77,3 +82,29 @@
 @import 'slider-work/slider-work__item';
 @import 'slider-work/slider-work__img';
 @import 'slider-work/slider-work__play';
+
+/* COMPANY */
+
+@import 'company/company__wrapper';
+@import 'company/company__title';
+@import 'company/company__content';
+@import 'company/company__content_light';
+@import 'company/company__link';
+
+/* REVIEWS */
+
+@import 'reviews/reviews';
+@import 'reviews/reviews__title';
+@import 'reviews/reviews__block';
+@import 'reviews/reviews__video';
+@import 'reviews/reviews__img';
+@import 'reviews/reviews__play';
+@import 'reviews/reviews__header';
+@import 'reviews/reviews__content';
+
+/* SLIDER-REVIEWS */
+
+@import 'slider-reviews/slider-reviews';
+@import 'slider-reviews/slider-reviews__item';
+@import 'slider-reviews/slider-reviews__letter';
+@import 'slider-reviews/slider-reviews__img';

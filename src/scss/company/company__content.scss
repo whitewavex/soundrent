@@ -1,0 +1,39 @@
+.company__content {
+    color: #585858;
+    line-height: 1.4;
+    font-size: 15px;
+    margin-bottom: 20px;
+    
+    &:last-of-type {
+        margin-bottom: 30px;
+    }
+}
+
+/* Medium Devices, Tablets */
+@media only screen and (max-width : 767px) {
+    
+    .company__content {
+        font-size: 14px;
+    }
+}
+    
+
+/* Small Devices, Phones */
+@media only screen and (max-width : 575px) {
+    
+    .company__content {
+        font-size: 13px;
+    }
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px) {
+    
+    .company__content {
+        font-size: 12px;
+        
+        &:last-of-type {
+            margin-bottom: 20px;
+        }
+    }
+}

@@ -1,0 +1,12 @@
+.reviews__title {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+/* Medium Devices, Tablets */
+@media only screen and (max-width : 767px) {
+    
+    .reviews__title {
+        margin-bottom: 20px;
+    }
+}

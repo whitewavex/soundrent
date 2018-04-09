@@ -1,0 +1,21 @@
+.slider-reviews__item {
+    padding-left: 8px;
+}
+    
+/* Medium Devices, Tablets */
+@media only screen and (max-width : 767px) {
+    
+    .slider-reviews__item {
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+}
+
+/* Small Devices, Phones */
+@media only screen and (max-width : 575px) {
+    
+    .slider-reviews__item {
+        padding-left: 8px;
+        padding-right: 0;
+    }
+}

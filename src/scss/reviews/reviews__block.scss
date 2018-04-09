@@ -1,0 +1,11 @@
+.reviews__block {
+    padding-top: 17px;
+}
+
+/* Medium Devices, Tablets */
+@media only screen and (max-width : 767px) {
+    
+    .reviews__block {
+        margin-bottom: 20px;
+    }
+}
