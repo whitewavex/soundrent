@@ -1,0 +1,14 @@
+.slider-work__wrapper {
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 70px;
+}
+
+/* Medium Devices, Tablets */
+@media only screen and (max-width : 767px) {
+    
+    .slider-work__wrapper {
+        padding-top: 30px;
+        padding-bottom: 50px;
+    }
+}

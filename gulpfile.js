@@ -61,7 +61,7 @@ gulp.task('styles', function() {
         .pipe(sourcemaps.init())
         .pipe(sass().on('error', sass.logError))
         .pipe(prefixer())
-        .pipe(cssmin())
+//        .pipe(cssmin())
         .pipe(sourcemaps.write())
         .pipe(gulp.dest(path.build.styles));
 });

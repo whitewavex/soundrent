@@ -1,0 +1,14 @@
+.links-pages__text {
+    font-size: 12px;
+    font-weight: bold;
+    color: #686868;
+    text-transform: uppercase;
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px) {
+    
+    .links-pages__text {
+        font-size: 10px;
+    }
+}

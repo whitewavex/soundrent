@@ -1,0 +1,11 @@
+.slider-work__title {
+    margin-bottom: 55px;
+}
+
+/* Medium Devices, Tablets */
+@media only screen and (max-width : 767px) {
+    
+    .slider-work__title {
+        margin-bottom: 0;
+    }
+}

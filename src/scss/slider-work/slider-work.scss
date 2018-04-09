@@ -1,0 +1,19 @@
+.slider-work {
+    background-color: $color-bg;
+    
+    .slick-dots {
+        bottom: -35px;
+    }
+    
+    .slick-slide {
+        padding: 18px;
+    }
+}
+
+/* Medium Devices, Tablets */
+@media only screen and (max-width : 767px) {
+    
+    .slider-work .slick-dots {
+        bottom: -20px;
+    }
+}

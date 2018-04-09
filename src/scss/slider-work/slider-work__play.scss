@@ -1,0 +1,21 @@
+.slider-work__play {
+//    display: none;
+    visibility: hidden;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 86px;
+    height: 86px;
+    margin-top: -43px;
+    margin-left: -43px;
+    background-color: #101010;
+    border-radius: 50%;
+    opacity: 0;
+    transition: .3s;
+    
+    img {
+        width: 11px;
+        height: 17px;
+        margin: 34.5px auto 0;
+    }
+}

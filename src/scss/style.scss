@@ -1,4 +1,3 @@
-/* BASE */
 @import 'base/reset';
 @import 'base/fonts';
 @import 'base/variables';
@@ -10,6 +9,10 @@
 @import 'page/page';
 @import 'page/page__wrap';
 @import 'page/page__header';
+@import 'page/page__slider';
+
+/* TITLE */
+@import 'title/title';
 
 /* HEADER */
 
@@ -33,7 +36,6 @@
 @import 'navigation/navigation';
 @import 'navigation/navigation__wrapper';
 @import 'navigation/navigation__list';
-@import 'navigation/navigation__ul';
 @import 'navigation/navigation__item';
 @import 'navigation/navigation__link';
 @import 'navigation/navigation__link_active';
@@ -51,3 +53,27 @@
 /* SLIDER */
 
 @import 'slider/slider';
+
+/* SERVICE */
+
+@import 'service/service';
+@import 'service/service__item';
+@import 'service/service__img';
+@import 'service/service__title';
+
+/* LINKS-PAGES */
+
+@import 'links-pages/links-pages';
+@import 'links-pages/links-pages__wrapper';
+@import 'links-pages/links-pages__text';
+@import 'links-pages/links-pages__link';
+@import 'links-pages/links-pages__span';
+
+/* SLIDER-WORK */
+
+@import 'slider-work/slider-work';
+@import 'slider-work/slider-work__wrapper';
+@import 'slider-work/slider-work__title';
+@import 'slider-work/slider-work__item';
+@import 'slider-work/slider-work__img';
+@import 'slider-work/slider-work__play';

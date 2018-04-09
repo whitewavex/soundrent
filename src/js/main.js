@@ -9,7 +9,7 @@ $(document).ready(function() {
         $(this).toggleClass('open');
     });
     
-//    SLICK SLIDER
+//    SLICK SLIDER TITLE   
     
     $('.slider').slick({
         dots: true,
@@ -20,5 +20,23 @@ $(document).ready(function() {
         autoplay: true,
         autoplaySpeed: 5000,
         arrows: false
+    });
+    
+//    SLICK SLIDER WORK
+    
+    $('.slider-work__container').slick({
+        dots: true,
+        arrows: false,
+        speed: 1000,
+        centerPadding: '40px',
+        slidesToShow: 2,
+        responsive: [
+            {
+                breakpoint: 767,
+                settings: {
+                    slidesToShow: 1
+                }
+            }
+        ]
     });
 });
