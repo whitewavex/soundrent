@@ -11,3 +11,11 @@
         font-size: 12px;
     }
 }
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px) {
+    
+    .product__content {
+        font-size: 11px;
+    }
+}
