@@ -1,0 +1,11 @@
+.feedback__vertical-line {
+    margin-left: 50px;
+}
+
+/* Large Devices, Desktops */
+@media only screen and (max-width : 991px) {
+    
+    .feedback__vertical-line {
+        margin-left: 25px;
+    }
+}

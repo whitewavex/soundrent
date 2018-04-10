@@ -19,6 +19,14 @@
 
 @import 'play/play';
 
+/* INPUT */
+
+@import 'input/input';
+
+/* VERTICAL LINE */
+
+@import 'vertical-line/vertical-line';
+
 /* HEADER */
 
 /* HEAD-INFO */
@@ -108,3 +116,21 @@
 @import 'slider-reviews/slider-reviews__item';
 @import 'slider-reviews/slider-reviews__letter';
 @import 'slider-reviews/slider-reviews__img';
+
+/* FEEDBACK */
+
+@import 'feedback/feedback';
+@import 'feedback/feedback__vertical-line';
+@import 'feedback-social/feedback-social';
+@import 'feedback-social/feedback-social__title';
+@import 'feedback-form/feedback-form';
+@import 'feedback-form/feedback-form__title';
+@import 'feedback-form/feedback-form__input';
+@import 'feedback-form/feedback-form__button';
+
+/* CLIENTS */
+
+@import 'clients/clients';
+@import 'clients-slider/clients-slider';
+@import 'clients-slider/clients-slider__arrow';
+@import 'clients-slider/clients-slider__arrow_next';

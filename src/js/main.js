@@ -46,14 +46,47 @@ $(document).ready(function() {
         arrows: false,
         speeed: 3000,
         slidesToShow: 2,
-        vertical: true,
-        responsive: [
+        vertical: true
+    });
+    
+//    CLIENTS SLIDER
+    
+    $('.clients-slider').slick({
+        slidesToShow: 6,
+        prevArrow: '<button type="button" class="clients-slider__arrow"></button>',
+        nextArrow: '<button type="button" class="clients-slider__arrow clients-slider__arrow_next"></button>',
+                responsive: [
             {
-                breakpoint: 1200,
+                breakpoint: 1199,
                 settings: {
-                    adaptiveHeight: true
+                    slidesToShow: 5
+                }
+            },
+            {
+                breakpoint: 1040,
+                settings: {
+                    slidesToShow: 4
+                }
+            },
+            {
+                breakpoint: 860,
+                settings: {
+                    slidesToShow: 3
+                }
+            },
+            {
+                breakpoint: 680,
+                settings: {
+                    slidesToShow: 2
+                }
+            },
+            {
+                breakpoint: 575,
+                settings: {
+                    slidesToShow: 1
                 }
             }
         ]
+        
     });
 });

@@ -1,0 +1,28 @@
+.feedback-form__button {
+    width: 300px;
+    height: 60px;
+    background-color: transparent;
+    border: 2px solid #fff;
+    font-size: 13px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #fff;
+    margin-top: 40px;
+    transition: .3s;
+    cursor: pointer;
+    
+    &:hover {
+        border: 2px solid #000;
+        color: #000;
+        background-color: #fff;
+        transition: .3s;
+    }
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px) {
+    
+    .feedback-form__button {
+        width: 280px;
+    }
+}

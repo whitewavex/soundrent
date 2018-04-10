@@ -1,0 +1,19 @@
+.clients {
+    padding: 50px 80px 80px;
+}
+
+/* Small Devices, Phones */
+@media only screen and (max-width : 575px) {
+    
+    .clients {
+        padding: 20px 70px;
+    }
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px) {
+    
+    .clients {
+        padding: 20px 40px;
+    }
+}

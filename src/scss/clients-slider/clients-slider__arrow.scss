@@ -1,0 +1,25 @@
+.clients-slider__arrow {
+    position: absolute;
+    width: 24px;
+    height: 46px;
+    top: 50%;
+    margin-top: -23px;
+    margin-left: -70px;
+    background-image: url(images/arrows.png);
+    background-repeat: no-repeat;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    
+    &:focus {
+        outline: none;
+    }
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px) {
+    
+    .clients-slider__arrow {
+        margin-left: -40px;
+    }
+}

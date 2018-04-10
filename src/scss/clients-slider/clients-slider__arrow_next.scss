@@ -1,0 +1,13 @@
+.clients-slider__arrow_next {
+    right: 0;
+    background-position: -25px 0;
+    margin-right: -70px;
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px) {
+    
+    .clients-slider__arrow_next {
+        margin-right: -40px;
+    }
+}
