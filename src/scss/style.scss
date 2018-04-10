@@ -27,6 +27,18 @@
 
 @import 'vertical-line/vertical-line';
 
+/* SEARCH */
+
+@import 'search/search__button';
+
+/* BUTTON */
+
+@import 'button/button';
+
+/* MARGIN-BURGER */
+
+@import 'margin-burger/margin-burger';
+
 /* HEADER */
 
 /* HEAD-INFO */
@@ -78,6 +90,7 @@
 
 @import 'links-pages/links-pages';
 @import 'links-pages/links-pages__wrapper';
+@import 'links-pages/links-pages__container';
 @import 'links-pages/links-pages__text';
 @import 'links-pages/links-pages__link';
 @import 'links-pages/links-pages__span';
@@ -149,3 +162,28 @@
 @import 'footer/footer__hours';
 @import 'footer/footer__phone';
 @import 'footer/footer__social';
+
+/* MAIN */
+
+@import 'main/main';
+
+/* SIDEBAR */
+
+@import 'sidebar/sidebar';
+@import 'sidebar/sidebar__widget';
+@import 'sidebar/sidebar__form';
+@import 'sidebar/sidebar__input';
+@import 'categories/categories__item';
+@import 'categories/categories__marker';
+
+/* PRODUCTS */
+
+@import 'products/products';
+
+/* PRODUCT */
+
+@import 'product/product';
+@import 'product/product__img';
+@import 'product/product__title';
+@import 'product/product__content';
+@import 'product/product__button';

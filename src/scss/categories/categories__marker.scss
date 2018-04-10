@@ -1,0 +1,13 @@
+.categories__marker {
+    width: 10px;
+    height: 10px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    background-image: url(images/marker_cat.png);
+    background-repeat: no-repeat;
+    background-position: 0 -10px;
+    margin-top: 10px;
+    margin-right: 8px;
+    opacity: .6;
+}

@@ -1,0 +1,19 @@
+.categories__item {
+    line-height: 1.8;
+    position: relative;
+    
+    a {
+        color: #525252;
+        font-size: 13px;
+        margin-left: 17px;
+        
+        &:hover {
+            color: #000;
+        }
+        
+        &:hover~.categories__marker {
+            background-position: 0 0;
+            opacity: 1;
+        }
+    }
+}

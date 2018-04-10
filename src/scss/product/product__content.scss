@@ -1,0 +1,13 @@
+.product__content {
+    font-size: 13px;
+    color: #898989;
+    margin-bottom: 15px;
+}
+
+/* Large Devices, Desktops */
+@media only screen and (max-width : 991px) {
+    
+    .product__content {
+        font-size: 12px;
+    }
+}

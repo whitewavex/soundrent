@@ -1,0 +1,8 @@
+.sidebar__input {
+    padding: 5px 10px;
+    border: 2px solid #767676;
+    
+    &:focus {
+        outline: none;
+    }
+}
