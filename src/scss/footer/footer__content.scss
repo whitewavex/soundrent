@@ -1,0 +1,12 @@
+.footer__content {
+    float: left;
+    width: 83%;
+}
+
+/* Medium Devices, Tablets */
+@media only screen and (max-width : 767px) {
+    
+    .footer__content {
+        width: 100%;
+    }
+}

@@ -1,0 +1,22 @@
+.footer__hours {
+    color: #f0342b;
+    font-size: 14px;
+    margin-right: 40px;
+}
+    
+/* Large Devices, Desktops */
+@media only screen and (max-width : 991px) {
+    
+    .footer__hours {
+        font-size: 12px;
+        margin-right: 20px;
+    }
+}
+
+/* Medium Devices, Tablets */
+@media only screen and (max-width : 767px) {
+    
+    .footer__hours {
+        display: none;
+    }
+}

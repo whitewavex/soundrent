@@ -1,0 +1,18 @@
+.footer__phone {
+    font-size: 14px;
+    color: $color-text;
+    cursor: pointer;
+    
+    &:hover {
+        color: $color-text;
+        text-decoration: underline;
+    }
+}
+
+/* Large Devices, Desktops */
+@media only screen and (max-width : 991px) {
+    
+    .footer__phone {
+        font-size: 12px;
+    }
+}

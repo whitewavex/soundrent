@@ -5,6 +5,11 @@
     font-weight: bold;
     text-decoration: none;
     line-height: 1.5;
+    
+    &:hover {
+        color: $color-text;
+        text-decoration: underline;
+    }
 }
 
 /* Medium Devices, Tablets */
