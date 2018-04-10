@@ -1,0 +1,38 @@
+.catalog__product_right {
+    padding-left: 50px;
+    padding-right: 90px;
+}
+
+/* Extra Large Devices, Wide Screens */
+@media only screen and (max-width : 1199px) {
+    
+    .catalog__product_right {
+        padding-right: 70px;
+        padding-left: 50px;
+    }
+}
+
+/* Large Devices, Desktops */
+@media only screen and (max-width : 991px) {
+    
+    .catalog__product_right {
+        padding-right: 40px;
+    }
+}
+
+/* Medium Devices, Tablets */
+@media only screen and (max-width : 767px) {
+    
+    .catalog__product_right {
+        padding-right: 20px;
+        padding-left: 40px;
+    }
+}
+
+/* Small Devices, Phones */
+@media only screen and (max-width : 575px) {
+    
+    .catalog__product_right {
+        padding-left: 20px;
+    }
+}

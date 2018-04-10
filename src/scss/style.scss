@@ -39,6 +39,10 @@
 
 @import 'margin-burger/margin-burger';
 
+/* LOAD */
+
+@import 'load/load';
+
 /* HEADER */
 
 /* HEAD-INFO */
@@ -187,8 +191,17 @@
 @import 'product/product__title';
 @import 'product/product__content';
 @import 'product/product__button';
+@import 'product/product_cat';
+@import 'product/product__img_cat';
+@import 'product/product__button_cat';
+@import 'product/product__img_left';
 
 /* CATALOG */
 
 @import 'catalog/catalog';
+@import 'catalog/catalog__wrapper';
+@import 'catalog/catalog__block';
+@import 'catalog/catalog__product';
 @import 'catalog/catalog__title';
+@import 'catalog/catalog__item';
+@import 'catalog/catalog__product_right';

@@ -1,7 +1,15 @@
 .product__content {
-    font-size: 13px;
-    color: #898989;
+    font-size: 15px;
+    color: #838383;
     margin-bottom: 15px;
+}
+
+/* Extra Large Devices, Wide Screens */
+@media only screen and (max-width : 1199px) {
+    
+    .product__content {
+        font-size: 13px;
+    }
 }
 
 /* Large Devices, Desktops */
