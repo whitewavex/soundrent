@@ -1,0 +1,11 @@
+.sidebar-popup {
+    display: none;
+    opacity: 0;
+    position: fixed;
+    top: 17%;
+    left: 5%;
+    width: 90%;
+    padding: 30px;
+    background-color: #000;
+    z-index: 30;
+}

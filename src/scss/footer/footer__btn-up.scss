@@ -1,0 +1,16 @@
+.footer__btn-up {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    margin-top: -32px;
+    margin-left: -13px;
+    z-index: 3;
+}
+
+/* Medium Devices, Tablets */
+@media only screen and (max-width : 767px) {
+    
+    .footer__btn-up {
+        margin-left: -33px;
+    }
+}

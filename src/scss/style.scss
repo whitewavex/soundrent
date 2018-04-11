@@ -52,6 +52,10 @@
 
 @import 'label/label';
 
+/* CLEAR */
+
+@import 'clear/clear';
+
 /* HEADER */
 
 /* HEAD-INFO */
@@ -175,6 +179,9 @@
 @import 'footer/footer__hours';
 @import 'footer/footer__phone';
 @import 'footer/footer__social';
+@import 'btn-up/btn-up';
+@import 'btn-up/btn-up__img';
+@import 'footer/footer__btn-up';
 
 /* MAIN */
 
@@ -242,3 +249,13 @@
 @import 'other-products/other-products__title';
 @import 'other-products/other-products__name';
 @import 'other-products/other-products__img';
+
+/* SIDEBAR-POPUP */
+
+@import 'sidebar-popup/sidebar-popup';
+@import 'sidebar-popup/sidebar-popup__item';
+@import 'sidebar-popup/sidebar-popup__link';
+@import 'sidebar-popup/sidebar-popup__close';
+@import 'sidebar-popup/sidebar-popup__svg';
+@import 'open-sidebar/open-sidebar';
+@import 'overlay/overlay';

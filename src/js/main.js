@@ -89,4 +89,39 @@ $(document).ready(function() {
         ]
         
     });
+    
+//    SCROLL UP
+    
+    $('.btn-up__link').click(function(e){
+        e.preventDefault();
+
+        $('html, body').animate({
+            scrollTop: 0
+        }, 500);
+
+    });
+    
+//    OPEN SIDEBAR-POPUP
+    
+    $('.open-sidebar').click(function(e) {
+        e.preventDefault();
+        $('.overlay').fadeIn(300, function() {
+            $('.sidebar-popup').css({
+                'display': 'block' 
+            }).animate({
+                'opacity': 1 
+            }, 300);
+        });
+    });
+    
+//    CLOSE SIDEBAR-POPUP
+    
+    $('.sidebar-popup__close').click(function() {
+        $('.sidebar-popup').animate({
+            'opacity': 0
+        },300, function() {
+            $('.sidebar-popup').css({'display':'none'});
+            $('.overlay').fadeOut(300);
+        });
+    });
 });

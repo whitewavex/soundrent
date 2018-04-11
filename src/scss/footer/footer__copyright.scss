@@ -1,7 +1,9 @@
 .footer__copyright {
+    position: relative;
     width: 28.84%;
     font-size: 14px;
     color: #777;
+    z-index: 4;
 }
 
 /* Large Devices, Desktops */
