@@ -1,0 +1,16 @@
+.other-products__title {
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 2.4;
+    color: #191919;
+    margin-bottom: 10px;
+}
+
+/* Small Devices, Phones */
+@media only screen and (max-width : 575px) {
+    
+    .other-products__title {
+        line-height: 1.5;
+        margin-bottom: 30px;
+    }
+}

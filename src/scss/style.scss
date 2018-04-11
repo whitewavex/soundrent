@@ -201,11 +201,13 @@
 @import 'product/product__img';
 @import 'product/product__title';
 @import 'product/product__content';
+@import 'product/product__text';
 @import 'product/product__button';
 @import 'product/product_cat';
 @import 'product/product__img_cat';
 @import 'product/product__button_cat';
 @import 'product/product__img_left';
+@import 'product/product__img_single';
 
 /* CATALOG */
 
@@ -233,3 +235,10 @@
 @import 'contacts/contacts__label';
 @import 'contacts/contacts__input';
 @import 'contacts/contacts__button';
+
+/* OTHER PRODUCTS */
+
+@import 'other-products/other-products__item';
+@import 'other-products/other-products__title';
+@import 'other-products/other-products__name';
+@import 'other-products/other-products__img';
