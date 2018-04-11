@@ -2,21 +2,3 @@
     float: left;
     padding: 9px 37px;
 }
-
-/* Large Devices, Desktops */
-@media only screen and (max-width : 991px) {
-    
-    .product__button {
-        float: none;
-        width: 150px;
-        margin: 0 46.5%;
-    }
-}
-
-/* Small Devices, Phones */
-@media only screen and (max-width : 575px) {
-    
-    .product__button {
-        margin: 0;
-    }
-}
