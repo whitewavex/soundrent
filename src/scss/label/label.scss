@@ -1,0 +1,20 @@
+.label {
+    font-size: 15px;
+    color: #838383;
+}
+
+/* Large Devices, Desktops */
+@media only screen and (max-width : 991px) {
+    
+    .label {
+        font-size: 14px;
+    }
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px) {
+    
+    .label {
+        font-size: 13px;
+    }
+}

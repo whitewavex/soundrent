@@ -1,0 +1,20 @@
+.contacts__map {
+    
+    iframe {
+        max-width: 100%;
+        max-height: 416px;
+    }
+}
+
+/* Large Devices, Desktops */
+@media only screen and (max-width : 991px) {
+    
+    .contacts__map {
+        margin-bottom: 40px;
+        border: 1px solid #d4d4d4;
+        
+        iframe {
+            height: 400px;
+        }
+    }
+}

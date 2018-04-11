@@ -43,6 +43,15 @@
 
 @import 'load/load';
 
+/* WIDGET */
+
+@import 'widget/widget__title';
+@import 'widget/widget__content';
+
+/* LABEL */
+
+@import 'label/label';
+
 /* HEADER */
 
 /* HEAD-INFO */
@@ -170,6 +179,7 @@
 /* MAIN */
 
 @import 'main/main';
+@import 'main/main__sidebar';
 
 /* SIDEBAR */
 
@@ -179,6 +189,7 @@
 @import 'sidebar/sidebar__input';
 @import 'categories/categories__item';
 @import 'categories/categories__marker';
+@import 'main/main__sidebar_col';
 
 /* PRODUCTS */
 
@@ -214,3 +225,11 @@
 @import 'vacancy/vacancy__input';
 @import 'vacancy/vacancy__label';
 @import 'vacancy/vacancy__button';
+
+/* CONTACTS */
+
+@import 'contacts/contacts__map';
+@import 'contacts/contacts__title';
+@import 'contacts/contacts__label';
+@import 'contacts/contacts__input';
+@import 'contacts/contacts__button';

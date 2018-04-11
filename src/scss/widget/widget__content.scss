@@ -1,0 +1,47 @@
+.widget__content {
+    font-size: 14px;
+    color: #000;
+    
+    div {
+        margin-bottom: 40px;
+    }
+    
+    p {
+        margin-bottom: 12px;
+    }
+    
+    a {
+        color: #404040;
+        
+        &:hover {
+            text-decoration: underline;
+        }
+    }
+}
+
+/* Medium Devices, Tablets */
+@media only screen and (max-width : 767px) {
+    
+    .widget__content {
+        text-align: center;
+        
+        div {
+            display: inline-block;
+            margin-left: 30px;
+            margin-bottom: 20px;
+            text-align: left;
+        }
+    }
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px) {
+    
+    .widget__content {
+        text-align: left;
+        
+        div {
+            margin-left: 10px;
+        }
+    }
+}

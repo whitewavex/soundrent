@@ -1,0 +1,17 @@
+/* Large Devices, Desktops */
+@media only screen and (max-width : 991px) {
+    
+    .main__sidebar_col {
+        width: auto;
+        margin-right: 0;
+    }
+}
+
+/* Medium Devices, Tablets */
+@media only screen and (max-width : 767px) {
+
+    .main__sidebar_col {
+        float: none;
+        width: 100%;
+    }
+}

@@ -10,35 +10,34 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body class="page">
-
     <div class="open-nav">
         <div class="open-nav__icon"></div>
     </div>
     <div class="burger">
         <ul class="burger__list">
             <li class="burger__item">
-                <a class="burger__link" href="/service.html">Главная</a>
+                <a class="burger__link" href="#">Главная</a>
             </li>
             <li class="burger__item">
-                <a class="burger__link" href="">Услуги</a>
+                <a class="burger__link" href="service.html">Услуги</a>
             </li>
             <li class="burger__item">
-                <a class="burger__link" href="">Организаторам</a>
+                <a class="burger__link" href="organizer.html">Организаторам</a>
             </li>
             <li class="burger__item">
-                <a class="burger__link" href="">Отзывы</a>
+                <a class="burger__link" href="#">Отзывы</a>
             </li>
             <li class="burger__item">
-                <a class="burger__link" href="">Наши работы</a>
+                <a class="burger__link" href="#">Наши работы</a>
             </li>
             <li class="burger__item">
-                <a class="burger__link" href="">Информационный каталог</a>
+                <a class="burger__link" href="catalog.html">Информационный каталог</a>
             </li>
             <li class="burger__item">
-                <a class="burger__link" href="">Вакансии</a>
+                <a class="burger__link" href="vacancies.html">Вакансии</a>
             </li>
             <li class="burger__item">
-                <a class="burger__link" href="">Контакты</a>
+                <a class="burger__link" href="contacts.html">Контакты</a>
             </li>
         </ul>
     </div>
@@ -58,8 +57,8 @@
                     <div class="head-info__phone phone">
                         <img src="images/phone.png" alt="" class="phone__img">
                         <div class="phone__numbers">
-                            <a href="" class="phone__number">0442091428</a>
-                            <a href="" class="phone__number">0447100081</a>
+                            <a href="tel:+380442091428" class="phone__number">0442091428</a>
+                            <a href="tel:+380977100081" class="phone__number">0447100081</a>
                         </div>
                     </div>
                 </div>
@@ -70,27 +69,27 @@
                         <div class="navigation__list ">
                             <ul>
                                 <li class="navigation__item">
-                                    <a href="" class="navigation__link navigation__link_active">Главная</a>
+                                    <a href="#" class="navigation__link navigation__link_active">Главная</a>
                                 </li>
                                 <li class="navigation__item">
-                                    <a href="" class="navigation__link">Услуги</a>
+                                    <a href="service.html" class="navigation__link">Услуги</a>
                                 </li>
                                 <li class="navigation__item">
-                                    <a href="" class="navigation__link">Организаторам</a></li>
+                                    <a href="organizer.html" class="navigation__link">Организаторам</a></li>
                                 <li class="navigation__item">
-                                    <a href="" class="navigation__link">Отзывы</a>
+                                    <a href="#" class="navigation__link">Отзывы</a>
                                 </li>
                                 <li class="navigation__item">
-                                    <a href="" class="navigation__link">Наши работы</a>
+                                    <a href="#" class="navigation__link">Наши работы</a>
                                 </li>
                                 <li class="navigation__item">
-                                    <a href="" class="navigation__link">Информационный каталог</a>
+                                    <a href="catalog.html" class="navigation__link">Информационный каталог</a>
                                 </li>
                                 <li class="navigation__item">
-                                    <a href="" class="navigation__link">Вакансии</a>
+                                    <a href="vacancies.html" class="navigation__link">Вакансии</a>
                                     </li>
                                 <li class="navigation__item">
-                                    <a href="" class="navigation__link">Контакты</a>
+                                    <a href="contacts.html" class="navigation__link">Контакты</a>
                                 </li>
                             </ul>
                             <div class="line"></div>
@@ -109,7 +108,7 @@
     <div class="wrapper">
         <div class="sidebar main__sidebar">
             <div class="sidebar__widget widget">
-                <h3 class="widget__title">Вакансии</h3>
+                <h3 class="widget__title title title_dark">Вакансии</h3>
                 <div class="categories">
                     <ul class="categories__list">
                         <li class="categories__item">
@@ -175,12 +174,12 @@
                             <p>Консультировать заказчиков по телефону в вопросах подключения оборудования и ценообразования(по шаблону).</p>
                             <h4>Отклик на вакансию</h4>
                             <form action="" class="vacancy__form">
-                                <label class="vacancy__label" for="vacancy-name">Ваше имя*</label>
-                                <input id="vacancy-name" type="text" class="input vacancy__input">
-                                <label class="vacancy__label" for="vacancy-email">Ваш email*</label>
-                                <input id="vacancy-email" type="text" class="input vacancy__input">
-                                <label class="vacancy__label" for="vacancy-text">Текст сообщения:</label>
-                                <textarea name="" id="vacancy-text" cols="30" rows="6" class="input vacancy__input"></textarea>
+                                <label class="vacancy__label label" for="vacancy-name">Ваше имя*</label>
+                                <input id="vacancy-name" type="text" name="name" class="input vacancy__input">
+                                <label class="vacancy__label label" for="vacancy-email">Ваш email*</label>
+                                <input id="vacancy-email" type="text" name="email" class="input vacancy__input">
+                                <label class="vacancy__label label" for="vacancy-text">Текст сообщения:</label>
+                                <textarea name="message" id="vacancy-text" cols="30" rows="6" class="input vacancy__input"></textarea>
                                 <button class="button vacancy__button">Отправить</button>
                             </form>
                         </div>
@@ -194,7 +193,9 @@
     <footer class="footer">
         <div class="wrapper">
             <div class="footer__logo">
-                <img src="images/logo.jpg" alt="">
+                <a class="logo" href="">
+                    <img src="images/logo.jpg" alt="">
+                </a>
             </div>
             <div class="footer__content">
                 <div class="footer__nav">
@@ -228,8 +229,8 @@
                 <div class="footer__info">
                         <p class="copyright footer__copyright float-left">&copy; 2017 Sound Rent Все права защищены. Разработано в студии Webkitchen</p>
                         <div class="footer__contacts float-right">
-                            <a href="#" class="footer__phone d-block">0442091428</a>
-                            <a href="#" class="footer__phone d-block">0447100081</a>
+                            <a href="tel:+380442091428" class="footer__phone d-block">0442091428</a>
+                            <a href="tel:+3809727100081" class="footer__phone d-block">0447100081</a>
                         </div>
                         <div class="footer__social float-right">
                             <a href="">
@@ -241,7 +242,7 @@
                         </div>
                         <div class="footer__hours hours float-right">
                             <p>Мы работаем с 10.00 - 19.00 пнд-птн</p>
-                            <p><strong>rent@soundrent.com.ua</strong></p>
+                            <p><a href="mailto:rent@soundrent.com.ua">rent@soundrent.com.ua</a></p>
                         </div>
                     </div>
                 </div>
