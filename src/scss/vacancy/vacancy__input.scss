@@ -1,0 +1,10 @@
+.vacancy__input {
+    padding: 8px;
+    color: #838383;
+    font-size: 14px;
+    border: 1px solid #d4d4d4;
+    
+    &:focus {
+        outline: none;
+    }
+}

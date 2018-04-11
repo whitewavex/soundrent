@@ -1,0 +1,13 @@
+.vacancy__img {
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+    
+/* Small Devices, Phones */
+@media only screen and (max-width : 575px) {
+    
+    .vacancy__img {
+        display: none;
+    }
+}
