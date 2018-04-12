@@ -1,4 +1,30 @@
 .burger__list {
     width: 250px;
     margin-top: 50px;
+    
+    li {
+        transition-duration: 0.25s;
+        display: block;
+        padding: 12px 20px;
+        color: white;
+        letter-spacing: 0.02em;
+        text-align: right;
+
+        &:hover {
+            cursor: pointer;
+            color: white;
+        }
+        
+        a {
+            font-size: 18px;
+            font-weight: 600;
+            text-transform: uppercase;
+            color: #fff;
+            text-decoration: none;
+
+            &:hover {
+                color: #d3d3d3;
+            }
+        }
+    }
 }

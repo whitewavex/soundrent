@@ -3,4 +3,26 @@
     justify-content: space-between;
     position: relative;
     z-index: 4;
+    
+    a {
+        font-size: 12px;
+        font-weight: 600;
+        text-transform: uppercase;
+        color: $color-text;
+        transition: .3s;
+
+        &:hover {
+            color: $color-text;
+            text-decoration: underline;
+            transition: .3s;
+        }
+    }
+
+    /* Large Devices, Desktops */
+    @media only screen and (max-width : 991px) {
+
+        a {
+            font-size: 10px;
+        }
+    }
 }
